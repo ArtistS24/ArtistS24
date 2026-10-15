@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 520" width="100%" height="100%">
+  <defs>
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.6"/>
+      <stop offset="50%" stop-color="#818cf8" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#34d399" stop-opacity="0.5"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <style>
+    .prompt { fill: #38bdf8; font-weight: 700; font-family: ui-monospace, SFMono-Regular, 'JetBrains Mono', 'Fira Code', Menlo, Consolas, monospace; font-size: 13.5px; }
+    .cmd { fill: #f8fafc; font-weight: 600; font-family: ui-monospace, SFMono-Regular, 'JetBrains Mono', 'Fira Code', Menlo, Consolas, monospace; font-size: 13.5px; }
+    .out { fill: #94a3b8; font-family: ui-monospace, SFMono-Regular, 'JetBrains Mono', 'Fira Code', Menlo, Consolas, monospace; font-size: 13px; }
+    .highlight { fill: #34d399; font-weight: 600; }
+    .key { fill: #fbbf24; font-weight: 600; }
+    .val { fill: #e2e8f0; }
+    .edge { fill: #38bdf8; font-style: italic; font-weight: 600; }
+  </style>
+
+  <!-- Card Background -->
+  <rect x="2" y="2" width="846" height="516" rx="10" fill="#06090f" stroke="url(#borderGrad)" stroke-width="1.5" />
+
+  <!-- Terminal Header Bar -->
+  <path d="M2 12 Q2 2 12 2 L838 2 Q848 2 848 12 L848 38 L2 38 Z" fill="#0d1420" />
+  <line x1="2" y1="38" x2="848" y2="38" stroke="#1e293b" stroke-width="1" />
+
+  <!-- Terminal Buttons -->
+  <circle cx="22" cy="20" r="6" fill="#ef4444" />
+  <circle cx="42" cy="20" r="6" fill="#f59e0b" />
+  <circle cx="62" cy="20" r="6" fill="#10b981" />
+
+  <!-- Window Title -->
+  <text x="425" y="24" text-anchor="middle" fill="#64748b" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" font-weight="600">artist@host: ~ (zsh)</text>
+
+  <!-- Terminal Content -->
+  <g transform="translate(25, 68)">
+    <!-- Command 1 -->
+    <text y="0" class="prompt">artist@host:~$ <tspan class="cmd">whoami</tspan></text>
+    <text y="22" class="out">Denis Albin · <tspan class="highlight">ArtistS24</tspan></text>
+
+    <!-- Command 2 -->
+    <text y="56" class="prompt">artist@host:~$ <tspan class="cmd">cat ~/.about</tspan></text>
+    <text y="78" class="out">Cybersecurity practitioner &amp; Linux enthusiast with an obsession for systems and craft.</text>
+    <text y="98" class="out">Magen Cyber graduate (694h, certified) · Currently in <tspan class="highlight">RTX (Red Team Expert @ John Bryce)</tspan>.</text>
+    <text y="118" class="out">Building offensive &amp; defensive tools from scratch in Python &amp; Bash.</text>
+
+    <!-- Command 3 -->
+    <text y="154" class="prompt">artist@host:~$ <tspan class="cmd">cat ~/.domains</tspan></text>
+    <text y="176" class="out"><tspan class="highlight">[+] Offensive Security</tspan> : Penetration testing, vulnerability research, exploit automation</text>
+    <text y="196" class="out"><tspan class="highlight">[+] Defensive Security</tspan> : SIEM event correlation, EDR telemetry, digital forensics</text>
+    <text y="216" class="out"><tspan class="highlight">[+] Infrastructure    </tspan> : Linux kernel primitives, KVM/libvirt virtualization, networking</text>
+    <text y="236" class="out"><tspan class="highlight">[+] Local Intelligence</tspan> : Self-hosted LLMs (Qwen / Ollama), threat modeling, automation</text>
+
+    <!-- Command 4 -->
+    <text y="272" class="prompt">artist@host:~$ <tspan class="cmd">cat ~/.stack</tspan></text>
+    <text y="294" class="out"><tspan class="key">languages  </tspan> : <tspan class="val">Python 3, Bash, POSIX Shell</tspan></text>
+    <text y="314" class="out"><tspan class="key">systems    </tspan> : <tspan class="val">Fedora Workstation (Daily Driver), Kali Linux (Container), KVM</tspan></text>
+    <text y="334" class="out"><tspan class="key">toolchains </tspan> : <tspan class="val">Nmap, Wireshark, Volatility, Metasploit, Docker, Socat</tspan></text>
+
+    <!-- Command 5 -->
+    <text y="370" class="prompt">artist@host:~$ <tspan class="cmd">cat ~/edge</tspan></text>
+    <text y="394" class="edge">the paint meets the kernel</text>
+
+    <!-- Cursor line -->
+    <text y="430" class="prompt">artist@host:~$ <tspan fill="#38bdf8">▊</tspan></text>
+  </g>
+</svg>
