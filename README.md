@@ -1,8 +1,6 @@
 <div align="center">
 
-<a href="https://github.com/ArtistS24/Engineer-Forensic-tool">
-  <img src="terminal.svg" width="100%" alt="ArtistS24 Terminal Console" />
-</a>
+<img src="terminal.svg" width="100%" alt="ArtistS24 Terminal Console" />
 
 <br/>
 
@@ -33,12 +31,6 @@ artist@host:~$ cat ~/.stack
 languages   : Python 3, Bash, POSIX Shell
 systems     : Fedora Workstation (Daily Driver), Kali Linux (Container), KVM
 toolchains  : Nmap, Wireshark, Volatility, Metasploit, Docker, Socat
-
-artist@host:~$ ls -la ~/projects
-drwxr-xr-x  engineer-forensics/    [PUBLIC] automated digital forensics & memory triage (bash)
-drwxr-xr-x  cyberium-cli/          [STAGING] terminal-first offensive lab suite (python 3)
-drwxr-xr-x  blackbox-siem-edr/     [STAGING] endpoint telemetry agent & correlation server
-drwxr-xr-x  glaz-audit/            [STAGING] automated vulnerability research framework
 
 artist@host:~$ cat ~/edge
 the paint meets the kernel
