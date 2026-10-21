@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 64" width="100%" height="100%">
+  
+  <style>
+    .mono { font-family: ui-monospace, SFMono-Regular, 'JetBrains Mono', 'Fira Code', Menlo, Consolas, monospace; }
+    .prompt { fill: #38bdf8; font-weight: 700; font-size: 13.5px; }
+    .cmd { fill: #f8fafc; font-weight: 600; font-size: 13.5px; }
+    .out { fill: #94a3b8; font-size: 12.5px; }
+    .highlight { fill: #34d399; font-weight: 600; }
+    .key { fill: #38bdf8; font-weight: 600; }
+    .val { fill: #e2e8f0; }
+    .meta { fill: #64748b; font-size: 12px; }
+    .id-key { fill: #64748b; font-weight: 600; font-size: 12px; }
+    .id-num { fill: #facc15; font-size: 12px; }
+    .id-name { fill: #38bdf8; font-weight: 600; font-size: 12px; }
+    .id-red { fill: #f87171; font-weight: 600; font-size: 12px; }
+    .id-blue { fill: #818cf8; font-weight: 600; font-size: 12px; }
+    .id-purple { fill: #c084fc; font-weight: 600; font-size: 12px; }
+    .id-green { fill: #34d399; font-weight: 600; font-size: 12px; }
+    .perm-d { fill: #38bdf8; font-weight: 600; }
+    .perm-r { fill: #facc15; }
+    .perm-w { fill: #f87171; }
+    .perm-x { fill: #4ade80; font-weight: 600; }
+    .perm-dash { fill: #475569; }
+    .user { fill: #94a3b8; font-size: 12px; }
+    .size { fill: #38bdf8; font-size: 12px; }
+    .date { fill: #64748b; font-size: 12px; }
+    .dir-flagship { fill: #34d399; font-weight: 700; font-size: 13.5px; letter-spacing: 0.3px; }
+    .dir-name { fill: #38bdf8; font-weight: 700; font-size: 13.5px; letter-spacing: 0.3px; }
+    .dir-amber { fill: #fbbf24; font-weight: 700; font-size: 13.5px; letter-spacing: 0.3px; }
+    .dir-indigo { fill: #818cf8; font-weight: 700; font-size: 13.5px; letter-spacing: 0.3px; }
+    .dir-fuchsia { fill: #e879f9; font-weight: 700; font-size: 13.5px; letter-spacing: 0.3px; }
+    .git-branch { fill: #c084fc; font-size: 11.5px; font-weight: 600; }
+    .tag-live { fill: #34d399; font-size: 11px; font-weight: 700; }
+    .tag-staging { fill: #94a3b8; font-size: 11px; font-weight: 600; }
+    .tag-research { fill: #e879f9; font-size: 11px; font-weight: 700; }
+    .tree-branch { fill: #475569; font-size: 12px; }
+    .tree-label { fill: #94a3b8; font-size: 12px; font-weight: 600; }
+    .tree-val { fill: #cbd5e1; font-size: 12px; }
+    .edge-quote { fill: #38bdf8; font-style: italic; font-weight: 600; font-size: 13px; }
+  </style>
+
+  <rect x="2" y="0" width="846" height="64" fill="#06090f" />
+  <line x1="2" y1="0" x2="2" y2="64" stroke="#30363d" stroke-opacity="1.0" stroke-width="1.5" />
+  <line x1="848" y1="0" x2="848" y2="64" stroke="#30363d" stroke-opacity="1.0" stroke-width="1.5" />
+
+  <g transform="translate(26, 20)" class="mono">
+    <text x="0" y="0" font-size="12">
+      <tspan class="perm-d">d</tspan><tspan class="perm-r">r</tspan><tspan class="perm-w">w</tspan><tspan class="perm-x">x</tspan><tspan class="perm-r">r</tspan><tspan class="perm-dash">-</tspan><tspan class="perm-x">x</tspan><tspan class="perm-r">r</tspan><tspan class="perm-dash">-</tspan><tspan class="perm-x">x</tspan>
+    </text>
+    <text x="86" y="0" class="user">artist</text>
+    <text x="136" y="0" class="size">4.0K</text>
+    <text x="174" y="0" class="date">15 Oct</text>
+
+    <g transform="translate(225, -12) scale(0.625)">
+      <path d="M14.25.18l.9.2.73.26.59.3.45.32.34.34.25.34.16.33.1.3.04.26.02.2-.01.13V8.5l-.05.63-.13.55-.21.46-.26.38-.3.31-.33.25-.35.19-.35.14-.33.1-.3.07-.26.04-.21.02H8.77l-.69.05-.59.14-.5.22-.41.27-.33.32-.27.35-.2.36-.15.37-.1.35-.07.32-.04.27-.02.21v3.06H3.17l-.21-.03-.28-.07-.32-.12-.35-.18-.36-.26-.36-.36-.35-.46-.32-.59-.28-.73-.21-.88-.14-1.05-.05-1.23.06-1.22.16-1.04.24-.87.32-.71.36-.57.4-.44.42-.33.42-.24.4-.16.36-.1.32-.05.24-.01h.16l.06.01h8.16v-.83H6.18l-.01-2.75-.02-.37.05-.34.11-.31.17-.28.25-.26.31-.23.38-.2.44-.18.51-.15.58-.12.64-.1.71-.06.77-.04.84-.02 1.27.05zm-6.3 1.98l-.23.33-.08.41.08.41.23.34.33.22.41.09.41-.09.33-.22.23-.34.08-.41-.08-.41-.23-.33-.33-.22-.41-.09-.41.09zm13.09 3.95l.28.06.32.12.35.18.36.27.36.35.35.47.32.59.28.73.21.88.14 1.04.05 1.23-.06 1.23-.16 1.04-.24.86-.32.71-.36.57-.4.45-.42.33-.42.24-.4.16-.36.09-.32.05-.24.02-.16-.01h-8.22v.82h5.84l.01 2.76.02.36-.05.34-.11.31-.17.29-.25.25-.31.24-.38.2-.44.17-.51.15-.58.13-.64.09-.71.07-.77.04-.84.01-1.27-.04-1.07-.14-.9-.2-.73-.25-.59-.3-.45-.33-.34-.34-.25-.34-.16-.33-.1-.3-.04-.25-.02-.2.01-.13v-5.34l.05-.64.13-.54.21-.46.26-.38.3-.32.33-.24.35-.2.35-.14.33-.1.3-.06.26-.04.21-.02.13-.01h5.84l.69-.05.59-.14.5-.21.41-.28.33-.32.27-.35.2-.36.15-.36.1-.35.07-.32.04-.28.02-.21V6.07h2.09l.14.01zm-6.47 14.25l-.23.33-.08.41.08.41.23.33.33.23.41.08.41-.08.33-.23.23-.33.08-.41-.08-.41-.23-.33-.33-.23-.41-.08-.41.08z" fill="#38bdf8" />
+    </g>
+
+    <text x="248" y="0" class="dir-name">cyberium-cli/</text>
+    <line x1="248" y1="3" x2="358" y2="3" stroke="#38bdf8" stroke-width="1.2" stroke-dasharray="3,2" opacity="0.85" />
+    <text x="364" y="-1" fill="#38bdf8" font-size="11.5" font-weight="700">↗</text>
+
+    <g transform="translate(386, -10)">
+      <circle cx="4" cy="2" r="1.6" fill="#c084fc" />
+      <circle cx="9" cy="8" r="1.6" fill="#c084fc" />
+      <circle cx="4" cy="8" r="1.6" fill="#c084fc" />
+      <path d="M4 2 L4 8 M4 5 Q6 5 9 8" stroke="#c084fc" stroke-width="0.9" fill="none" />
+      <text x="14" y="8" class="git-branch">main</text>
+    </g>
+
+    <g transform="translate(444, -11)">
+      <rect x="0" y="0" width="112" height="17" rx="3" fill="#082f49" stroke="#0284c7" stroke-width="0.8" />
+      <circle cx="9" cy="8.5" r="2.5" fill="#38bdf8" />
+      <text x="20" y="12" fill="#38bdf8" font-size="9" font-weight="700">OPERATOR TUI</text>
+    </g>
+
+    <g transform="translate(564, -11)">
+      <rect x="0" y="0" width="220" height="17" rx="3" fill="#0f172a" stroke="#334155" stroke-width="0.8" />
+      <g transform="translate(7, 3) scale(0.44)">
+        <path d="M14.25.18l.9.2.73.26.59.3.45.32.34.34.25.34.16.33.1.3.04.26.02.2-.01.13V8.5l-.05.63-.13.55-.21.46-.26.38-.3.31-.33.25-.35.19-.35.14-.33.1-.3.07-.26.04-.21.02H8.77l-.69.05-.59.14-.5.22-.41.27-.33.32-.27.35-.2.36-.15.37-.1.35-.07.32-.04.27-.02.21v3.06H3.17l-.21-.03-.28-.07-.32-.12-.35-.18-.36-.26-.36-.36-.35-.46-.32-.59-.28-.73-.21-.88-.14-1.05-.05-1.23.06-1.22.16-1.04.24-.87.32-.71.36-.57.4-.44.42-.33.42-.24.4-.16.36-.1.32-.05.24-.01h.16l.06.01h8.16v-.83H6.18l-.01-2.75-.02-.37.05-.34.11-.31.17-.28.25-.26.31-.23.38-.2.44-.18.51-.15.58-.12.64-.1.71-.06.77-.04.84-.02 1.27.05zm-6.3 1.98l-.23.33-.08.41.08.41.23.34.33.22.41.09.41-.09.33-.22.23-.34.08-.41-.08-.41-.23-.33-.33-.22-.41-.09-.41.09zm13.09 3.95l.28.06.32.12.35.18.36.27.36.35.35.47.32.59.28.73.21.88.14 1.04.05 1.23-.06 1.23-.16 1.04-.24.86-.32.71-.36.57-.4.45-.42.33-.42.24-.4.16-.36.09-.32.05-.24.02-.16-.01h-8.22v.82h5.84l.01 2.76.02.36-.05.34-.11.31-.17.29-.25.25-.31.24-.38.2-.44.17-.51.15-.58.13-.64.09-.71.07-.77.04-.84.01-1.27-.04-1.07-.14-.9-.2-.73-.25-.59-.3-.45-.33-.34-.34-.25-.34-.16-.33-.1-.3-.04-.25-.02-.2.01-.13v-5.34l.05-.64.13-.54.21-.46.26-.38.3-.32.33-.24.35-.2.35-.14.33-.1.3-.06.26-.04.21-.02.13-.01h5.84l.69-.05.59-.14.5-.21.41-.28.33-.32.27-.35.2-.36.15-.36.1-.35.07-.32.04-.28.02-.21V6.07h2.09l.14.01zm-6.47 14.25l-.23.33-.08.41.08.41.23.33.33.23.41.08.41-.08.33-.23.23-.33.08-.41-.08-.41-.23-.33-.33-.23-.41-.08-.41.08z" fill="#38bdf8" />
+      </g>
+      <text x="23" y="12" fill="#94a3b8" font-size="10.5" font-weight="600">python 3 · curses · tui · stdlib</text>
+    </g>
+
+    <g transform="translate(230, 20)">
+      <text x="0" y="0" class="tree-branch">└──</text>
+      <text x="18" y="0" fill="#38bdf8" font-weight="700">❯</text>
+      <text x="34" y="0" class="tree-label">interface: <tspan class="tree-val">Curses TUI dashboard, browser session sync &amp; lab submission CLI</tspan></text>
+    </g>
+  </g>
+</svg>

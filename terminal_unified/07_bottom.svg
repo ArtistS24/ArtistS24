@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 82" width="100%" height="100%">
+  
+  <style>
+    .mono { font-family: ui-monospace, SFMono-Regular, 'JetBrains Mono', 'Fira Code', Menlo, Consolas, monospace; }
+    .prompt { fill: #38bdf8; font-weight: 700; font-size: 13.5px; }
+    .cmd { fill: #f8fafc; font-weight: 600; font-size: 13.5px; }
+    .out { fill: #94a3b8; font-size: 12.5px; }
+    .highlight { fill: #34d399; font-weight: 600; }
+    .key { fill: #38bdf8; font-weight: 600; }
+    .val { fill: #e2e8f0; }
+    .meta { fill: #64748b; font-size: 12px; }
+    .id-key { fill: #64748b; font-weight: 600; font-size: 12px; }
+    .id-num { fill: #facc15; font-size: 12px; }
+    .id-name { fill: #38bdf8; font-weight: 600; font-size: 12px; }
+    .id-red { fill: #f87171; font-weight: 600; font-size: 12px; }
+    .id-blue { fill: #818cf8; font-weight: 600; font-size: 12px; }
+    .id-purple { fill: #c084fc; font-weight: 600; font-size: 12px; }
+    .id-green { fill: #34d399; font-weight: 600; font-size: 12px; }
+    .perm-d { fill: #38bdf8; font-weight: 600; }
+    .perm-r { fill: #facc15; }
+    .perm-w { fill: #f87171; }
+    .perm-x { fill: #4ade80; font-weight: 600; }
+    .perm-dash { fill: #475569; }
+    .user { fill: #94a3b8; font-size: 12px; }
+    .size { fill: #38bdf8; font-size: 12px; }
+    .date { fill: #64748b; font-size: 12px; }
+    .dir-flagship { fill: #34d399; font-weight: 700; font-size: 13.5px; letter-spacing: 0.3px; }
+    .dir-name { fill: #38bdf8; font-weight: 700; font-size: 13.5px; letter-spacing: 0.3px; }
+    .dir-amber { fill: #fbbf24; font-weight: 700; font-size: 13.5px; letter-spacing: 0.3px; }
+    .dir-indigo { fill: #818cf8; font-weight: 700; font-size: 13.5px; letter-spacing: 0.3px; }
+    .dir-fuchsia { fill: #e879f9; font-weight: 700; font-size: 13.5px; letter-spacing: 0.3px; }
+    .git-branch { fill: #c084fc; font-size: 11.5px; font-weight: 600; }
+    .tag-live { fill: #34d399; font-size: 11px; font-weight: 700; }
+    .tag-staging { fill: #94a3b8; font-size: 11px; font-weight: 600; }
+    .tag-research { fill: #e879f9; font-size: 11px; font-weight: 700; }
+    .tree-branch { fill: #475569; font-size: 12px; }
+    .tree-label { fill: #94a3b8; font-size: 12px; font-weight: 600; }
+    .tree-val { fill: #cbd5e1; font-size: 12px; }
+    .edge-quote { fill: #38bdf8; font-style: italic; font-weight: 600; font-size: 13px; }
+  </style>
+
+  <rect x="2" y="0" width="846" height="80" rx="8" fill="#06090f" />
+  <path d="M2 0 L2 70 Q2 80 12 80 L838 80 Q848 80 848 70 L848 0" fill="none" stroke="#30363d" stroke-opacity="1.0" stroke-width="1.5" />
+
+  <g transform="translate(26, 24)" class="mono">
+    <text y="0" class="prompt">artist@host:~/projects$ <tspan class="cmd">cat ~/edge</tspan></text>
+    <text y="24" class="edge-quote">"the paint meets the kernel — where shadow gives depth to the blade"</text>
+    <text y="48" class="prompt">artist@host:~/projects$ <tspan fill="#38bdf8">▋</tspan></text>
+  </g>
+</svg>

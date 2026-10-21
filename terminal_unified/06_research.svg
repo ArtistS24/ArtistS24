@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 64" width="100%" height="100%">
+  
+  <style>
+    .mono { font-family: ui-monospace, SFMono-Regular, 'JetBrains Mono', 'Fira Code', Menlo, Consolas, monospace; }
+    .prompt { fill: #38bdf8; font-weight: 700; font-size: 13.5px; }
+    .cmd { fill: #f8fafc; font-weight: 600; font-size: 13.5px; }
+    .out { fill: #94a3b8; font-size: 12.5px; }
+    .highlight { fill: #34d399; font-weight: 600; }
+    .key { fill: #38bdf8; font-weight: 600; }
+    .val { fill: #e2e8f0; }
+    .meta { fill: #64748b; font-size: 12px; }
+    .id-key { fill: #64748b; font-weight: 600; font-size: 12px; }
+    .id-num { fill: #facc15; font-size: 12px; }
+    .id-name { fill: #38bdf8; font-weight: 600; font-size: 12px; }
+    .id-red { fill: #f87171; font-weight: 600; font-size: 12px; }
+    .id-blue { fill: #818cf8; font-weight: 600; font-size: 12px; }
+    .id-purple { fill: #c084fc; font-weight: 600; font-size: 12px; }
+    .id-green { fill: #34d399; font-weight: 600; font-size: 12px; }
+    .perm-d { fill: #38bdf8; font-weight: 600; }
+    .perm-r { fill: #facc15; }
+    .perm-w { fill: #f87171; }
+    .perm-x { fill: #4ade80; font-weight: 600; }
+    .perm-dash { fill: #475569; }
+    .user { fill: #94a3b8; font-size: 12px; }
+    .size { fill: #38bdf8; font-size: 12px; }
+    .date { fill: #64748b; font-size: 12px; }
+    .dir-flagship { fill: #34d399; font-weight: 700; font-size: 13.5px; letter-spacing: 0.3px; }
+    .dir-name { fill: #38bdf8; font-weight: 700; font-size: 13.5px; letter-spacing: 0.3px; }
+    .dir-amber { fill: #fbbf24; font-weight: 700; font-size: 13.5px; letter-spacing: 0.3px; }
+    .dir-indigo { fill: #818cf8; font-weight: 700; font-size: 13.5px; letter-spacing: 0.3px; }
+    .dir-fuchsia { fill: #e879f9; font-weight: 700; font-size: 13.5px; letter-spacing: 0.3px; }
+    .git-branch { fill: #c084fc; font-size: 11.5px; font-weight: 600; }
+    .tag-live { fill: #34d399; font-size: 11px; font-weight: 700; }
+    .tag-staging { fill: #94a3b8; font-size: 11px; font-weight: 600; }
+    .tag-research { fill: #e879f9; font-size: 11px; font-weight: 700; }
+    .tree-branch { fill: #475569; font-size: 12px; }
+    .tree-label { fill: #94a3b8; font-size: 12px; font-weight: 600; }
+    .tree-val { fill: #cbd5e1; font-size: 12px; }
+    .edge-quote { fill: #38bdf8; font-style: italic; font-weight: 600; font-size: 13px; }
+  </style>
+
+  <rect x="2" y="0" width="846" height="64" fill="#06090f" />
+  <line x1="2" y1="0" x2="2" y2="64" stroke="#30363d" stroke-opacity="1.0" stroke-width="1.5" />
+  <line x1="848" y1="0" x2="848" y2="64" stroke="#30363d" stroke-opacity="1.0" stroke-width="1.5" />
+
+  <g transform="translate(26, 20)" class="mono">
+    <text x="0" y="0" font-size="12">
+      <tspan class="perm-d">d</tspan><tspan class="perm-r">r</tspan><tspan class="perm-w">w</tspan><tspan class="perm-x">x</tspan><tspan class="perm-r">r</tspan><tspan class="perm-dash">-</tspan><tspan class="perm-x">x</tspan><tspan class="perm-r">r</tspan><tspan class="perm-dash">-</tspan><tspan class="perm-x">x</tspan>
+    </text>
+    <text x="86" y="0" class="user">artist</text>
+    <text x="136" y="0" class="size">4.0K</text>
+    <text x="174" y="0" class="date">19 Oct</text>
+
+    <g transform="translate(225, -12) scale(0.625)">
+      <path d="M15.897 20.503c-.384 0-1.782-2.489-1.97-3.198-.393-1.486-.308-2.114-.285-2.314.072-.613.667-.92.703-1.748.01-.256.14-1.535.243-2.534a1.723 1.723 0 0 1-.733-.343c.676.908-.32 1.995-1.767 3.443-1.536 1.536-4.945 2.961-4.945 2.961s1.425-3.41 2.961-4.945c1.13-1.129 2.04-1.983 2.816-1.983.22 0 .427.067.627.216a1.722 1.722 0 0 1-.343-.733c-.999.103-2.278.232-2.534.244-.829.036-1.135.63-1.747.702-.07.008-.194.024-.388.024-.36 0-.963-.054-1.926-.31-.772-.203-3.648-1.84-3.14-2.045.26-.105 1.087-.176 2.175-.176 1.047 0 2.337.066 3.596.23 1.57.205 3.01.463 3.992.656.016-.053.035-.104.058-.154l-1.004-.48s-.8-.92-.715-.984a.02.02 0 0 1 .012-.003c.126 0 .767.733.829.816l.605.202-.284-.249s-.388-1.438-.287-1.472h.004c.106 0 .459 1.25.489 1.34.07.06.303.152.596.32l-.308-.79s.14-1.305.243-1.305h.003c.105.021-.02 1.089-.047 1.221l.51.783a1.31 1.31 0 0 1 .463-.082c.184 0 .374.036.558.107-.236-.502-.218-1.025.095-1.338a.84.84 0 0 1 .353-.209.462.462 0 0 1 .457-.383c.127 0 .254.05.352.148a.497.497 0 0 1 .147.335c.151-.311.329-.73.317-.867-.03-.307-.386-.852-.39-.857a.076.076 0 0 1 .064-.119c.025 0 .05.012.064.035.016.023.381.582.414.927.018.198-.21.696-.333.95a2.227 2.227 0 0 1 .873.874c.245-.12.715-.334.927-.334l.024.001c.345.033.904.399.927.414a.076.076 0 0 1-.084.128c-.005-.004-.55-.36-.857-.39h-.015c-.15 0-.552.171-.852.317.12.004.242.053.335.147a.482.482 0 0 1 .012.681.459.459 0 0 1-.247.128.845.845 0 0 1-.21.354.924.924 0 0 1-.67.255c-.212 0-.441-.055-.667-.16.132.343.142.708.025 1.02l.783.51c.095-.019.666-.088.993-.088.13 0 .222.011.228.04.02.106-1.305.247-1.305.247l-.79-.308c.168.293.26.527.32.596.091.03 1.374.392 1.34.493-.004.012-.026.017-.063.017-.283 0-1.41-.304-1.41-.304l-.248-.284.202.605c.087.065.876.755.813.841-.004.005-.009.007-.016.007-.139 0-.967-.722-.967-.722l-.481-1.004a1.18 1.18 0 0 1-.154.058c.193.982.451 2.422.656 3.992.335 2.569.26 5.261.054 5.77-.016.041-.042.06-.076.06M12 24C5.373 24 0 18.627 0 12S5.373 0 12 0s12 5.373 12 12-5.373 12-12 12m0-22.153C6.393 1.847 1.847 6.393 1.847 12S6.393 22.153 12 22.153 22.153 17.607 22.153 12 17.607 1.847 12 1.847Z" fill="#e879f9" />
+    </g>
+
+    <text x="248" y="0" class="dir-fuchsia">security-research-labs/</text>
+    <line x1="248" y1="3" x2="445" y2="3" stroke="#e879f9" stroke-width="1.2" stroke-dasharray="3,2" opacity="0.85" />
+    <text x="451" y="-1" fill="#e879f9" font-size="11.5" font-weight="700">↗</text>
+
+    <g transform="translate(473, -10)">
+      <circle cx="4" cy="2" r="1.6" fill="#c084fc" />
+      <circle cx="9" cy="8" r="1.6" fill="#c084fc" />
+      <circle cx="4" cy="8" r="1.6" fill="#c084fc" />
+      <path d="M4 2 L4 8 M4 5 Q6 5 9 8" stroke="#c084fc" stroke-width="0.9" fill="none" />
+      <text x="14" y="8" class="git-branch">main</text>
+    </g>
+
+    <g transform="translate(528, -11)">
+      <rect x="0" y="0" width="102" height="17" rx="3" fill="#2d0639" stroke="#c084fc" stroke-width="0.8" />
+      <circle cx="8" cy="8.5" r="2.5" fill="#e879f9" />
+      <text x="18" y="12" fill="#e879f9" font-size="9" font-weight="700">THREAT INTEL</text>
+    </g>
+
+    <g transform="translate(638, -11)">
+      <rect x="0" y="0" width="180" height="17" rx="3" fill="#0f172a" stroke="#334155" stroke-width="0.8" />
+      <g transform="translate(7, 3) scale(0.44)">
+        <path d="M15.897 20.503c-.384 0-1.782-2.489-1.97-3.198-.393-1.486-.308-2.114-.285-2.314.072-.613.667-.92.703-1.748.01-.256.14-1.535.243-2.534a1.723 1.723 0 0 1-.733-.343c.676.908-.32 1.995-1.767 3.443-1.536 1.536-4.945 2.961-4.945 2.961s1.425-3.41 2.961-4.945c1.13-1.129 2.04-1.983 2.816-1.983.22 0 .427.067.627.216a1.722 1.722 0 0 1-.343-.733c-.999.103-2.278.232-2.534.244-.829.036-1.135.63-1.747.702-.07.008-.194.024-.388.024-.36 0-.963-.054-1.926-.31-.772-.203-3.648-1.84-3.14-2.045.26-.105 1.087-.176 2.175-.176 1.047 0 2.337.066 3.596.23 1.57.205 3.01.463 3.992.656.016-.053.035-.104.058-.154l-1.004-.48s-.8-.92-.715-.984a.02.02 0 0 1 .012-.003c.126 0 .767.733.829.816l.605.202-.284-.249s-.388-1.438-.287-1.472h.004c.106 0 .459 1.25.489 1.34.07.06.303.152.596.32l-.308-.79s.14-1.305.243-1.305h.003c.105.021-.02 1.089-.047 1.221l.51.783a1.31 1.31 0 0 1 .463-.082c.184 0 .374.036.558.107-.236-.502-.218-1.025.095-1.338a.84.84 0 0 1 .353-.209.462.462 0 0 1 .457-.383c.127 0 .254.05.352.148a.497.497 0 0 1 .147.335c.151-.311.329-.73.317-.867-.03-.307-.386-.852-.39-.857a.076.076 0 0 1 .064-.119c.025 0 .05.012.064.035.016.023.381.582.414.927.018.198-.21.696-.333.95a2.227 2.227 0 0 1 .873.874c.245-.12.715-.334.927-.334l.024.001c.345.033.904.399.927.414a.076.076 0 0 1-.084.128c-.005-.004-.55-.36-.857-.39h-.015c-.15 0-.552.171-.852.317.12.004.242.053.335.147a.482.482 0 0 1 .012.681.459.459 0 0 1-.247.128.845.845 0 0 1-.21.354.924.924 0 0 1-.67.255c-.212 0-.441-.055-.667-.16.132.343.142.708.025 1.02l.783.51c.095-.019.666-.088.993-.088.13 0 .222.011.228.04.02.106-1.305.247-1.305.247l-.79-.308c.168.293.26.527.32.596.091.03 1.374.392 1.34.493-.004.012-.026.017-.063.017-.283 0-1.41-.304-1.41-.304l-.248-.284.202.605c.087.065.876.755.813.841-.004.005-.009.007-.016.007-.139 0-.967-.722-.967-.722l-.481-1.004a1.18 1.18 0 0 1-.154.058c.193.982.451 2.422.656 3.992.335 2.569.26 5.261.054 5.77-.016.041-.042.06-.076.06M12 24C5.373 24 0 18.627 0 12S5.373 0 12 0s12 5.373 12 12-5.373 12-12 12m0-22.153C6.393 1.847 1.847 6.393 1.847 12S6.393 22.153 12 22.153 22.153 17.607 22.153 12 17.607 1.847 12 1.847Z" fill="#e879f9" />
+      </g>
+      <text x="23" y="12" fill="#94a3b8" font-size="10.5" font-weight="600">threat-intel · ctf · owasp</text>
+    </g>
+
+    <g transform="translate(230, 20)">
+      <text x="0" y="0" class="tree-branch">└──</text>
+      <circle cx="24" cy="-4" r="2" fill="#e879f9" />
+      <text x="34" y="0" class="tree-label">arenas   : <tspan class="tree-val">In-the-wild threat intelligence &amp; vulnerable challenge architecture</tspan></text>
+    </g>
+  </g>
+</svg>
