@@ -4,19 +4,19 @@
 
 <br/>
 
-[![Verified Credentials](https://img.shields.io/badge/VERIFIED_CREDENTIALS-CITY_%26_GUILDS-0284c7?style=flat-square&logo=credential&logoColor=white)](https://digitalcredentials.cityandguilds.com/profile/denisalbin263984/wallet)
+[![Verified Credentials](https://img.shields.io/badge/VERIFIED_CREDENTIALS-CITY_%26_GUILDS-0284c7?style=flat-square&logo=openbadges&logoColor=white)](https://digitalcredentials.cityandguilds.com/profile/denisalbin263984/wallet)
 [![Direct Contact](https://img.shields.io/badge/DIRECT_CONTACT-albindeniswork%40gmail.com-10b981?style=flat-square&logo=gmail&logoColor=white)](mailto:albindeniswork@gmail.com)
 
 <br/>
 <br/>
 
-[![Capstone Research Dossiers](https://img.shields.io/badge/CAPSTONE_RESEARCH_DOSSIERS-OFFICIAL_WHITEPAPERS_(PDF)-d97706?style=flat-square&logo=adobeacrobatreader&logoColor=white)](https://github.com/ArtistS24/Engineer-Forensic-tool/blob/main/Engineer.pdf)
+[![Capstone Research Dossiers](https://img.shields.io/badge/CAPSTONE_RESEARCH_DOSSIERS-OFFICIAL_WHITEPAPERS_(PDF)-d97706?style=flat-square&logo=readthedocs&logoColor=white)](https://github.com/ArtistS24/Engineer-Forensic-tool/blob/main/docs/Engineer_Portfolio.pdf)
 <br/>
-[![Engineer Forensics Dossier](https://img.shields.io/badge/Forensics_Dossier-Engineer_(13_Pages)-38bdf8?style=flat-square&logo=linux&logoColor=white)](https://github.com/ArtistS24/Engineer-Forensic-tool/blob/main/Engineer.pdf)
+[![Engineer Forensics Dossier](https://img.shields.io/badge/Forensics_Dossier-Engineer_(13_Pages)-38bdf8?style=flat-square&logo=linux&logoColor=white)](https://github.com/ArtistS24/Engineer-Forensic-tool/blob/main/docs/Engineer_Portfolio.pdf)
 [![Cyberium Whitepaper](https://img.shields.io/badge/TUI_Spec_%26_POC-Cyberium_CLI_(8_Pages)-10b981?style=flat-square&logo=python&logoColor=white)](https://github.com/ArtistS24/cyberium-cli/blob/main/docs/Cyberium_CLI_POC_Denis_Albin.pdf)
-[![BlackBox SIEM Dossier](https://img.shields.io/badge/SOC_%26_EDR_Spec-BlackBox_SIEM-6366f1?style=flat-square&logo=linux&logoColor=white)](https://github.com/ArtistS24/blackbox-siem-edr/blob/main/docs/NX220_SOC_Analyst_Accreditation.pdf)
-[![Glaz Pentest Dossier](https://img.shields.io/badge/Pentest_Dossier-Glaz_Audit_(12_Pages)-f59e0b?style=flat-square&logo=security&logoColor=white)](https://github.com/ArtistS24/glaz-audit/blob/main/docs/Glaz_Portfolio.pdf)
-[![Red Team Compendiums](https://img.shields.io/badge/Threat_Intel-RTFM_%26_APT_Manuals-e879f9?style=flat-square&logo=target&logoColor=white)](https://github.com/ArtistS24/security-research-labs)
+[![BlackBox SIEM Dossier](https://img.shields.io/badge/SOC_%26_EDR_Spec-BlackBox_SIEM_(8_Pages)-6366f1?style=flat-square&logo=linux&logoColor=white)](https://github.com/ArtistS24/blackbox-siem-edr/blob/main/docs/Blackbox_SIEM_EDR_Portfolio.pdf)
+[![Glaz Pentest Dossier](https://img.shields.io/badge/Pentest_Dossier-Glaz_Audit_(12_Pages)-f59e0b?style=flat-square&logo=kalilinux&logoColor=white)](https://github.com/ArtistS24/glaz-audit/blob/main/docs/Glaz_Portfolio.pdf)
+[![Cyberium CTF Arenas](https://img.shields.io/badge/CTF_Arenas-7_Walkthrough_Dossiers-e879f9?style=flat-square&logo=target&logoColor=white)](https://github.com/ArtistS24/security-research-labs)
 
 </div>
 
@@ -73,8 +73,8 @@ drwxr-xr-x 2 artist 4.0K Oct 15 >_ glaz-audit  ● PENTEST SUITE
 
 drwxr-xr-x 2 artist 4.0K Oct 19 >_ security-research-labs  ● THREAT INTEL
   ├─ stack: threat-intel | ctf | owasp
-  ├─ In-the-wild threat intelligence & vulnerable challenge architecture
-  └─ Documentation: [  3 Red Team Manuals & 7 Challenge Walkthrough Dossiers ]
+  ├─ arenas: Cyberium CTF tournament arenas, OWASP labs & OSINT threat intel
+  └─ Documentation: [  7 Official Challenge Walkthrough Dossiers (PDF) ]
 
 artist@host:~/projects$ cat ~/edge
 the paint meets the kernel — where shadow gives depth to the blade
