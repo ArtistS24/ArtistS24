@@ -64,7 +64,7 @@ drwxr-xr-x 2 artist 4.0K Oct 15 >_ cyberium-cli  ● OPERATOR TUI
 drwxr-xr-x 2 artist 4.0K Oct 15 >_ blackbox-siem-edr  ● SOC PLATFORM
   ├─ stack: bash | inotify | socat | siem
   ├─ Endpoint telemetry sensor & autonomous defensive correlation server
-  └─ Documentation: [  Architecture Blueprint & NX220 SOC Analyst Spec ]
+  └─ Documentation: [  8-Page Official SIEM & EDR Dossier & Proof of Concept ]
 
 drwxr-xr-x 2 artist 4.0K Oct 15 >_ glaz-audit  ● PENTEST SUITE
   ├─ stack: bash | nmap | cve | recon
