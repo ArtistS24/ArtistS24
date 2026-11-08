@@ -14,7 +14,7 @@
 <br/>
 [![Engineer Forensics Dossier](https://img.shields.io/badge/Forensics_Dossier-Engineer_(13_Pages)-38bdf8?style=flat-square&logo=linux&logoColor=white)](https://github.com/ArtistS24/Engineer-Forensic-tool/blob/main/docs/Engineer_Portfolio.pdf)
 [![Cyberium Whitepaper](https://img.shields.io/badge/TUI_Spec_%26_POC-Cyberium_CLI_(8_Pages)-10b981?style=flat-square&logo=python&logoColor=white)](https://github.com/ArtistS24/cyberium-cli/blob/main/docs/Cyberium_CLI_POC_Denis_Albin.pdf)
-[![BlackBox SIEM Dossier](https://img.shields.io/badge/SOC_%26_EDR_Spec-BlackBox_SIEM_(8_Pages)-6366f1?style=flat-square&logo=linux&logoColor=white)](https://github.com/ArtistS24/blackbox-siem-edr/blob/main/docs/Blackbox_SIEM_EDR_Portfolio.pdf)
+[![BlackBox SIEM Dossier](https://img.shields.io/badge/SOC_%26_EDR_Spec-BlackBox_SIEM_(12_Pages)-6366f1?style=flat-square&logo=linux&logoColor=white)](https://github.com/ArtistS24/blackbox-siem-edr/blob/main/docs/Blackbox_SIEM_EDR_Portfolio.pdf)
 [![Glaz Pentest Dossier](https://img.shields.io/badge/Pentest_Dossier-Glaz_Audit_(12_Pages)-f59e0b?style=flat-square&logo=kalilinux&logoColor=white)](https://github.com/ArtistS24/glaz-audit/blob/main/docs/Glaz_Portfolio.pdf)
 [![Cyberium CTF Arenas](https://img.shields.io/badge/CTF_Arenas-7_Walkthrough_Dossiers-e879f9?style=flat-square&logo=target&logoColor=white)](https://github.com/ArtistS24/security-research-labs)
 
@@ -64,7 +64,7 @@ drwxr-xr-x 2 artist 4.0K Oct 15 >_ cyberium-cli  ● OPERATOR TUI
 drwxr-xr-x 2 artist 4.0K Oct 15 >_ blackbox-siem-edr  ● SOC PLATFORM
   ├─ stack: bash | inotify | socat | siem
   ├─ Endpoint telemetry sensor & autonomous defensive correlation server
-  └─ Documentation: [  8-Page Official SIEM & EDR Dossier & Proof of Concept ]
+  └─ Documentation: [  12-Page Official SIEM & EDR Dossier & Proof of Concept ]
 
 drwxr-xr-x 2 artist 4.0K Oct 15 >_ glaz-audit  ● PENTEST SUITE
   ├─ stack: bash | nmap | cve | recon
