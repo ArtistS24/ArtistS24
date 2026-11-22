@@ -1,6 +1,6 @@
 <div align="center">
 
-<div align="center"><a href="https://github.com/ArtistS24"><img src="terminal_unified/01_top.svg" width="100%" align="top" alt="Terminal Window Top: Bio &amp; cd projects" /></a><a href="https://github.com/ArtistS24/Engineer-Forensic-tool" title="Open Flagship Repository: Engineer-Forensic-tool"><img src="terminal_unified/02_engineer.svg" width="100%" align="top" alt="Engineer Forensics Project Row" /></a><a href="https://github.com/ArtistS24/cyberium-cli" title="Explore Cyberium CLI Lab"><img src="terminal_unified/03_cyberium.svg" width="100%" align="top" alt="Cyberium CLI Project Row" /></a><a href="https://github.com/ArtistS24/blackbox-siem-edr" title="Explore Black Box SIEM Lab"><img src="terminal_unified/04_blackbox.svg" width="100%" align="top" alt="Black Box SIEM Project Row" /></a><a href="https://github.com/ArtistS24/glaz-audit" title="Explore Glaz Audit Lab"><img src="terminal_unified/05_glaz.svg" width="100%" align="top" alt="Glaz Audit Project Row" /></a><a href="https://github.com/ArtistS24/security-research-labs" title="Explore Security Research &amp; Vulnerable Lab Arenas"><img src="terminal_unified/06_research.svg" width="100%" align="top" alt="Security Research &amp; Vulnerable Lab Arenas Row" /></a><a href="https://github.com/ArtistS24"><img src="terminal_unified/07_bottom.svg" width="100%" align="top" alt="Terminal Window Bottom: Edge Motto" /></a></div>
+<div align="center"><a href="https://github.com/ArtistS24"><img src="terminal_unified/01_top.svg" width="100%" align="top" alt="Terminal Window Top: Bio &amp; cd projects" /></a><a href="https://github.com/ArtistS24/blackbox-siem-edr" title="Open Flagship SOC Repository: blackbox-siem-edr"><img src="terminal_unified/04_blackbox.svg" width="100%" align="top" alt="Black Box SIEM &amp; EDR Project Row" /></a><a href="https://github.com/ArtistS24/Engineer-Forensic-tool" title="Explore Engineer Forensics Tool"><img src="terminal_unified/02_engineer.svg" width="100%" align="top" alt="Engineer Forensics Project Row" /></a><a href="https://github.com/ArtistS24/cyberium-cli" title="Explore Cyberium CLI Lab"><img src="terminal_unified/03_cyberium.svg" width="100%" align="top" alt="Cyberium CLI Project Row" /></a><a href="https://github.com/ArtistS24/glaz-audit" title="Explore Glaz Audit Lab"><img src="terminal_unified/05_glaz.svg" width="100%" align="top" alt="Glaz Audit Project Row" /></a><a href="https://github.com/ArtistS24/security-research-labs" title="Explore Security Research &amp; Vulnerable Lab Arenas"><img src="terminal_unified/06_research.svg" width="100%" align="top" alt="Security Research &amp; Vulnerable Lab Arenas Row" /></a><a href="https://github.com/ArtistS24"><img src="terminal_unified/07_bottom.svg" width="100%" align="top" alt="Terminal Window Bottom: Edge Motto" /></a></div>
 
 <br/>
 
@@ -10,11 +10,11 @@
 <br/>
 <br/>
 
-[![Capstone Research Dossiers](https://img.shields.io/badge/CAPSTONE_RESEARCH_DOSSIERS-OFFICIAL_WHITEPAPERS_(PDF)-d97706?style=flat-square&logo=readthedocs&logoColor=white)](https://github.com/ArtistS24/Engineer-Forensic-tool/blob/main/docs/Engineer_Portfolio.pdf)
+[![Capstone Research Dossiers](https://img.shields.io/badge/PROJECT_POC_DOSSIERS-TECHNICAL_DOCUMENTATION_(PDF)-d97706?style=flat-square&logo=readthedocs&logoColor=white)](https://github.com/ArtistS24/blackbox-siem-edr/blob/main/docs/Blackbox_SIEM_EDR_Portfolio.pdf)
 <br/>
+[![BlackBox SIEM Dossier](https://img.shields.io/badge/SOC_%26_EDR_Spec-BlackBox_SIEM_(12_Pages)-6366f1?style=flat-square&logo=linux&logoColor=white)](https://github.com/ArtistS24/blackbox-siem-edr/blob/main/docs/Blackbox_SIEM_EDR_Portfolio.pdf)
 [![Engineer Forensics Dossier](https://img.shields.io/badge/Forensics_Dossier-Engineer_(13_Pages)-38bdf8?style=flat-square&logo=linux&logoColor=white)](https://github.com/ArtistS24/Engineer-Forensic-tool/blob/main/docs/Engineer_Portfolio.pdf)
 [![Cyberium Whitepaper](https://img.shields.io/badge/TUI_Spec_%26_POC-Cyberium_CLI_(8_Pages)-10b981?style=flat-square&logo=python&logoColor=white)](https://github.com/ArtistS24/cyberium-cli/blob/main/docs/Cyberium_CLI_POC_Denis_Albin.pdf)
-[![BlackBox SIEM Dossier](https://img.shields.io/badge/SOC_%26_EDR_Spec-BlackBox_SIEM_(12_Pages)-6366f1?style=flat-square&logo=linux&logoColor=white)](https://github.com/ArtistS24/blackbox-siem-edr/blob/main/docs/Blackbox_SIEM_EDR_Portfolio.pdf)
 [![Glaz Pentest Dossier](https://img.shields.io/badge/Pentest_Dossier-Glaz_Audit_(12_Pages)-f59e0b?style=flat-square&logo=kalilinux&logoColor=white)](https://github.com/ArtistS24/glaz-audit/blob/main/docs/Glaz_Portfolio.pdf)
 [![Cyberium CTF Arenas](https://img.shields.io/badge/CTF_Arenas-7_Walkthrough_Dossiers-e879f9?style=flat-square&logo=target&logoColor=white)](https://github.com/ArtistS24/security-research-labs)
 
@@ -28,16 +28,16 @@ artist@host:~$ whoami
 Denis Albin · ArtistS24
 
 artist@host:~$ id
-uid=1000(artist) gid=1000(artist) groups=10(wheel),36(kvm),24(red-team),42(blue-team),220(soc-analyst),1337(rtx-pentest)
+uid=1000(artist) gid=1000(artist) groups=10(wheel),36(kvm),220(soc-analyst),42(blue-team),24(red-team),1337(rtx-pentest)
 
 artist@host:~$ cat ~/.about
 Cybersecurity practitioner & Linux enthusiast · systems & craft.
 Cybersecurity graduate (694h · City & Guilds) · Currently in RTX (Red Team Expert).
-Building offensive & defensive tools from scratch in Python & Bash.
+Building defensive & offensive tools from scratch in Python & Bash.
 
 artist@host:~$ cat ~/.domains
-[+] Offensive Security : Pentesting, vulnerability research, exploit dev
 [+] Defensive Security : SIEM event correlation, EDR telemetry, forensics
+[+] Offensive Security : Pentesting, vulnerability research, CVE mapping
 [+] Infrastructure     : Linux kernel primitives, KVM virtualization
 [+] Local Intelligence : Self-hosted LLMs (Qwen / Ollama), threat models
 
@@ -50,34 +50,35 @@ artist@host:~$ cd ~/projects
 
 artist@host:~/projects$ ls -la --color=always --hyperlink=auto
 total 40 · 5 repositories · OSC-8 hyperlinks active
+drwxr-xr-x 2 artist 4.0K Oct 15 >_ blackbox-siem-edr/ ↗  ● SOC PLATFORM
+  ├─ stack: bash | inotify | socat | siem
+  ├─ defensive: socat TCP:9000 JSON SIEM ingest, jq parser & live SOC dashboard
+  ├─ endpoint : inotifywait, /proc & ss sensor · MITRE rules · SIGKILL & iptables
+  └─ Documentation: [  12-Page Official SIEM & EDR Dossier & Proof of Concept ]
+
 drwxr-xr-x 2 artist 4.0K Oct 18 >_ engineer-forensics/ ↗  ● LIVE REPO
   ├─ stack: bash | volatility 3 | binwalk
   ├─ Automated file carving, artifact extraction & Volatility 3 memory triage
   ├─ Workflow: 13-option interactive CLI dispatcher · *_Automation.zip bundle
   └─ Documentation: [  13-Page Official Forensics Dossier & Proof of Concept ]
 
-drwxr-xr-x 2 artist 4.0K Oct 15 >_ cyberium-cli  ● OPERATOR TUI
+drwxr-xr-x 2 artist 4.0K Oct 15 >_ cyberium-cli/ ↗  ● OPERATOR TUI
   ├─ stack: python 3 | curses | tui | stdlib
   ├─ Curses TUI dashboard, browser session sync & lab submission CLI
   └─ Documentation: [  8-Page Official POC Whitepaper & Curses TUI Spec ]
 
-drwxr-xr-x 2 artist 4.0K Oct 15 >_ blackbox-siem-edr  ● SOC PLATFORM
-  ├─ stack: bash | inotify | socat | siem
-  ├─ Endpoint telemetry sensor & autonomous defensive correlation server
-  └─ Documentation: [  12-Page Official SIEM & EDR Dossier & Proof of Concept ]
-
-drwxr-xr-x 2 artist 4.0K Oct 15 >_ glaz-audit  ● PENTEST SUITE
+drwxr-xr-x 2 artist 4.0K Oct 15 >_ glaz-audit/ ↗  ● PENTEST SUITE
   ├─ stack: bash | nmap | cve | recon
   ├─ Automated vulnerability research framework & scanner orchestration
   └─ Documentation: [  12-Page Official Pentest Dossier & CVE Methodology ]
 
-drwxr-xr-x 2 artist 4.0K Oct 19 >_ security-research-labs  ● THREAT INTEL
+drwxr-xr-x 2 artist 4.0K Oct 19 >_ security-research-labs/ ↗  ● THREAT INTEL
   ├─ stack: threat-intel | ctf | owasp
   ├─ arenas: Cyberium CTF tournament arenas, OWASP labs & OSINT threat intel
   └─ Documentation: [  7 Official Challenge Walkthrough Dossiers (PDF) ]
 
 artist@host:~/projects$ cat ~/edge
-the paint meets the kernel — where shadow gives depth to the blade
+"the paint meets the kernel — where shadow gives depth to the blade"
 ```
 
 </details>
