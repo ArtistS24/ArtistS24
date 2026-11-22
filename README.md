@@ -33,7 +33,7 @@ uid=1000(artist) gid=1000(artist) groups=10(wheel),36(kvm),220(soc-analyst),42(b
 artist@host:~$ cat ~/.about
 Cybersecurity practitioner & Linux enthusiast · systems & craft.
 Cybersecurity graduate (694h · City & Guilds) · Currently in RTX (Red Team Expert).
-Building defensive & offensive tools from scratch in Python & Bash.
+Building Linux SIEM/EDR, forensics & lab automation in Bash & CLI.
 
 artist@host:~$ cat ~/.domains
 [+] Defensive Security : SIEM event correlation, EDR telemetry, forensics
@@ -42,7 +42,7 @@ artist@host:~$ cat ~/.domains
 [+] Local Intelligence : Self-hosted LLMs (Qwen / Ollama), threat models
 
 artist@host:~$ cat ~/.stack
-languages   : Python 3, Bash, POSIX Shell
+languages   : Bash, POSIX Shell, Python 3 (Lab Tooling)
 systems     : Fedora (Daily Driver), Kali Linux (Container), KVM
 toolchains  : Nmap, Wireshark, Volatility, Metasploit, Docker, Socat
 
@@ -62,10 +62,10 @@ drwxr-xr-x 2 artist 4.0K Oct 18 >_ engineer-forensics/ ↗  ● LIVE REPO
   ├─ Workflow: 13-option interactive CLI dispatcher · *_Automation.zip bundle
   └─ Documentation: [  13-Page Official Forensics Dossier & Proof of Concept ]
 
-drwxr-xr-x 2 artist 4.0K Oct 15 >_ cyberium-cli/ ↗  ● OPERATOR TUI
-  ├─ stack: python 3 | curses | tui | stdlib
+drwxr-xr-x 2 artist 4.0K Oct 15 >_ cyberium-cli/ ↗  ● LAB HELPER TUI
+  ├─ stack: python 3 | curses | tui | sqlite
   ├─ Curses TUI dashboard, browser session sync & lab submission CLI
-  └─ Documentation: [  8-Page Official POC Whitepaper & Curses TUI Spec ]
+  └─ Documentation: [  8-Page Lab Walkthrough & Curses TUI Dossier ]
 
 drwxr-xr-x 2 artist 4.0K Oct 15 >_ glaz-audit/ ↗  ● PENTEST SUITE
   ├─ stack: bash | nmap | cve | recon
