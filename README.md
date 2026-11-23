@@ -12,7 +12,7 @@
 
 [![Capstone Research Dossiers](https://img.shields.io/badge/PROJECT_POC_DOSSIERS-TECHNICAL_DOCUMENTATION_(PDF)-d97706?style=flat-square&logo=readthedocs&logoColor=white)](https://github.com/ArtistS24/blackbox-siem-edr/blob/main/docs/Blackbox_SIEM_EDR_Portfolio.pdf)
 <br/>
-[![BlackBox SIEM Dossier](https://img.shields.io/badge/SOC_%26_EDR_Spec-BlackBox_SIEM_(12_Pages)-6366f1?style=flat-square&logo=linux&logoColor=white)](https://github.com/ArtistS24/blackbox-siem-edr/blob/main/docs/Blackbox_SIEM_EDR_Portfolio.pdf)
+[![BlackBox SIEM Dossier](https://img.shields.io/badge/SOC_%26_EDR_Spec-BlackBox_SIEM_(18_Pages)-6366f1?style=flat-square&logo=linux&logoColor=white)](https://github.com/ArtistS24/blackbox-siem-edr/blob/main/docs/Blackbox_SIEM_EDR_Portfolio.pdf)
 [![Engineer Forensics Dossier](https://img.shields.io/badge/Forensics_Dossier-Engineer_(13_Pages)-38bdf8?style=flat-square&logo=linux&logoColor=white)](https://github.com/ArtistS24/Engineer-Forensic-tool/blob/main/docs/Engineer_Portfolio.pdf)
 [![Cyberium Whitepaper](https://img.shields.io/badge/TUI_Spec_%26_POC-Cyberium_CLI_(8_Pages)-10b981?style=flat-square&logo=python&logoColor=white)](https://github.com/ArtistS24/cyberium-cli/blob/main/docs/Cyberium_CLI_POC_Denis_Albin.pdf)
 [![Glaz Pentest Dossier](https://img.shields.io/badge/Pentest_Dossier-Glaz_Audit_(12_Pages)-f59e0b?style=flat-square&logo=kalilinux&logoColor=white)](https://github.com/ArtistS24/glaz-audit/blob/main/docs/Glaz_Portfolio.pdf)
@@ -54,7 +54,7 @@ drwxr-xr-x 2 artist 4.0K Oct 15 >_ blackbox-siem-edr/ ↗  ● SOC PLATFORM
   ├─ stack: bash | inotify | socat | siem
   ├─ defensive: socat TCP:9000 JSON SIEM ingest, jq parser & live SOC dashboard
   ├─ endpoint : inotifywait, /proc & ss sensor · MITRE rules · SIGKILL & iptables
-  └─ Documentation: [  12-Page Official SIEM & EDR Dossier & Proof of Concept ]
+  └─ Documentation: [  18-Page Official SIEM & EDR Dossier & Proof of Concept ]
 
 drwxr-xr-x 2 artist 4.0K Oct 18 >_ engineer-forensics/ ↗  ● LIVE REPO
   ├─ stack: bash | volatility 3 | binwalk
