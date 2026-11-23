@@ -10,13 +10,15 @@
 <br/>
 <br/>
 
-[![Capstone Research Dossiers](https://img.shields.io/badge/PROJECT_POC_DOSSIERS-TECHNICAL_DOCUMENTATION_(PDF)-d97706?style=flat-square&logo=readthedocs&logoColor=white)](https://github.com/ArtistS24/blackbox-siem-edr/blob/main/docs/Blackbox_SIEM_EDR_Portfolio.pdf)
-<br/>
-[![BlackBox SIEM Dossier](https://img.shields.io/badge/SOC_%26_EDR_Spec-BlackBox_SIEM_(18_Pages)-6366f1?style=flat-square&logo=linux&logoColor=white)](https://github.com/ArtistS24/blackbox-siem-edr/blob/main/docs/Blackbox_SIEM_EDR_Portfolio.pdf)
-[![Engineer Forensics Dossier](https://img.shields.io/badge/Forensics_Dossier-Engineer_(13_Pages)-38bdf8?style=flat-square&logo=linux&logoColor=white)](https://github.com/ArtistS24/Engineer-Forensic-tool/blob/main/docs/Engineer_Portfolio.pdf)
-[![Cyberium Whitepaper](https://img.shields.io/badge/TUI_Spec_%26_POC-Cyberium_CLI_(8_Pages)-10b981?style=flat-square&logo=python&logoColor=white)](https://github.com/ArtistS24/cyberium-cli/blob/main/docs/Cyberium_CLI_POC_Denis_Albin.pdf)
-[![Glaz Pentest Dossier](https://img.shields.io/badge/Pentest_Dossier-Glaz_Audit_(12_Pages)-f59e0b?style=flat-square&logo=kalilinux&logoColor=white)](https://github.com/ArtistS24/glaz-audit/blob/main/docs/Glaz_Portfolio.pdf)
-[![OWASP CTF Arenas](https://img.shields.io/badge/CTF_Walkthroughs-OWASP_CTF_Arenas_(75_Pages)-e879f9?style=flat-square&logo=target&logoColor=white)](https://github.com/ArtistS24/owasp-ctf-arenas)
+<p>
+  <img src="https://img.shields.io/badge/PROJECT_POC_DOSSIERS-TECHNICAL_DOCUMENTATION_(PDF)-d97706?style=flat-square&amp;logo=readthedocs&amp;logoColor=white" alt="Project PoC Documentation (PDF)" />
+  <br/>
+  <a href="https://github.com/ArtistS24/blackbox-siem-edr/blob/main/docs/Blackbox_SIEM_EDR_Portfolio.pdf"><img src="https://img.shields.io/badge/SOC_%26_EDR_Spec-BlackBox_SIEM_(18_Pages)-6366f1?style=flat-square&amp;logo=linux&amp;logoColor=white" alt="BlackBox SIEM PoC" /></a>
+  <a href="https://github.com/ArtistS24/Engineer-Forensic-tool/blob/main/docs/Engineer_Portfolio.pdf"><img src="https://img.shields.io/badge/Forensics_Dossier-Engineer_(13_Pages)-38bdf8?style=flat-square&amp;logo=linux&amp;logoColor=white" alt="Engineer Forensics PoC" /></a>
+  <a href="https://github.com/ArtistS24/cyberium-cli/blob/main/docs/Cyberium_CLI_POC_Denis_Albin.pdf"><img src="https://img.shields.io/badge/TUI_Spec_%26_POC-Cyberium_CLI_(8_Pages)-10b981?style=flat-square&amp;logo=python&amp;logoColor=white" alt="Cyberium CLI PoC" /></a>
+  <a href="https://github.com/ArtistS24/glaz-audit/blob/main/docs/Glaz_Portfolio.pdf"><img src="https://img.shields.io/badge/Pentest_Dossier-Glaz_Audit_(12_Pages)-f59e0b?style=flat-square&amp;logo=kalilinux&amp;logoColor=white" alt="Glaz Pentest PoC" /></a>
+  <a href="https://github.com/ArtistS24/owasp-ctf-arenas"><img src="https://img.shields.io/badge/CTF_Walkthroughs-OWASP_CTF_Arenas_(75_Pages)-e879f9?style=flat-square&amp;logo=target&amp;logoColor=white" alt="OWASP CTF Arenas" /></a>
+</p>
 
 </div>
 
@@ -54,23 +56,23 @@ drwxr-xr-x 2 artist 4.0K Oct 15 >_ blackbox-siem-edr/ ↗  ● SOC PLATFORM
   ├─ stack: bash | inotify | socat | siem
   ├─ defensive: socat TCP:9000 JSON SIEM ingest, jq parser & live SOC dashboard
   ├─ endpoint : inotifywait, /proc & ss sensor · MITRE rules · SIGKILL & iptables
-  └─ Documentation: [  18-Page Official SIEM & EDR Dossier & Proof of Concept ]
+  └─ Documentation: [  18-Page SIEM & EDR Architecture & PoC (PDF) ]
 
-drwxr-xr-x 2 artist 4.0K Oct 18 >_ engineer-forensics/ ↗  ● LIVE REPO
+drwxr-xr-x 2 artist 4.0K Oct 18 >_ Engineer-Forensic-tool/ ↗  ● LIVE REPO
   ├─ stack: bash | volatility 3 | binwalk
   ├─ Automated file carving, artifact extraction & Volatility 3 memory triage
   ├─ Workflow: 13-option interactive CLI dispatcher · *_Automation.zip bundle
-  └─ Documentation: [  13-Page Official Forensics Dossier & Proof of Concept ]
+  └─ Documentation: [  13-Page Forensics Walkthrough & PoC (PDF) ]
 
 drwxr-xr-x 2 artist 4.0K Oct 15 >_ cyberium-cli/ ↗  ● LAB HELPER TUI
   ├─ stack: python 3 | curses | tui | sqlite
   ├─ Curses TUI dashboard, browser session sync & lab submission CLI
-  └─ Documentation: [  8-Page Lab Walkthrough & Curses TUI Dossier ]
+  └─ Documentation: [  8-Page Curses TUI Walkthrough & PoC (PDF) ]
 
 drwxr-xr-x 2 artist 4.0K Oct 15 >_ glaz-audit/ ↗  ● PENTEST SUITE
   ├─ stack: bash | nmap | cve | recon
   ├─ Automated vulnerability research framework & scanner orchestration
-  └─ Documentation: [  12-Page Official Pentest Dossier & CVE Methodology ]
+  └─ Documentation: [  12-Page Pentest Walkthrough & CVE Mapping (PDF) ]
 
 drwxr-xr-x 2 artist 4.0K Oct 19 >_ owasp-ctf-arenas/ ↗  ● CTF ARENAS
   ├─ stack: docker | php | mysql | owasp
