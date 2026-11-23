@@ -1,6 +1,6 @@
 <div align="center">
 
-<div align="center"><a href="https://github.com/ArtistS24"><img src="terminal_unified/01_top.svg" width="100%" align="top" alt="Terminal Window Top: Bio &amp; cd projects" /></a><a href="https://github.com/ArtistS24/blackbox-siem-edr" title="Open Flagship SOC Repository: blackbox-siem-edr"><img src="terminal_unified/04_blackbox.svg" width="100%" align="top" alt="Black Box SIEM &amp; EDR Project Row" /></a><a href="https://github.com/ArtistS24/Engineer-Forensic-tool" title="Explore Engineer Forensics Tool"><img src="terminal_unified/02_engineer.svg" width="100%" align="top" alt="Engineer Forensics Project Row" /></a><a href="https://github.com/ArtistS24/cyberium-cli" title="Explore Cyberium CLI Lab"><img src="terminal_unified/03_cyberium.svg" width="100%" align="top" alt="Cyberium CLI Project Row" /></a><a href="https://github.com/ArtistS24/glaz-audit" title="Explore Glaz Audit Lab"><img src="terminal_unified/05_glaz.svg" width="100%" align="top" alt="Glaz Audit Project Row" /></a><a href="https://github.com/ArtistS24/security-research-labs" title="Explore Security Research &amp; Vulnerable Lab Arenas"><img src="terminal_unified/06_research.svg" width="100%" align="top" alt="Security Research &amp; Vulnerable Lab Arenas Row" /></a><a href="https://github.com/ArtistS24"><img src="terminal_unified/07_bottom.svg" width="100%" align="top" alt="Terminal Window Bottom: Edge Motto" /></a></div>
+<div align="center"><a href="https://github.com/ArtistS24"><img src="terminal_unified/01_top.svg" width="100%" align="top" alt="Terminal Window Top: Bio &amp; cd projects" /></a><a href="https://github.com/ArtistS24/blackbox-siem-edr" title="Open Flagship SOC Repository: blackbox-siem-edr"><img src="terminal_unified/04_blackbox.svg" width="100%" align="top" alt="Black Box SIEM &amp; EDR Project Row" /></a><a href="https://github.com/ArtistS24/Engineer-Forensic-tool" title="Explore Engineer Forensics Tool"><img src="terminal_unified/02_engineer.svg" width="100%" align="top" alt="Engineer Forensics Project Row" /></a><a href="https://github.com/ArtistS24/cyberium-cli" title="Explore Cyberium CLI Lab"><img src="terminal_unified/03_cyberium.svg" width="100%" align="top" alt="Cyberium CLI Project Row" /></a><a href="https://github.com/ArtistS24/glaz-audit" title="Explore Glaz Audit Lab"><img src="terminal_unified/05_glaz.svg" width="100%" align="top" alt="Glaz Audit Project Row" /></a><a href="https://github.com/ArtistS24/owasp-ctf-arenas" title="Explore OWASP CTF Arenas"><img src="terminal_unified/06_research.svg" width="100%" align="top" alt="OWASP CTF Arenas Project Row" /></a><a href="https://github.com/ArtistS24"><img src="terminal_unified/07_bottom.svg" width="100%" align="top" alt="Terminal Window Bottom: Edge Motto" /></a></div>
 
 <br/>
 
@@ -16,7 +16,7 @@
 [![Engineer Forensics Dossier](https://img.shields.io/badge/Forensics_Dossier-Engineer_(13_Pages)-38bdf8?style=flat-square&logo=linux&logoColor=white)](https://github.com/ArtistS24/Engineer-Forensic-tool/blob/main/docs/Engineer_Portfolio.pdf)
 [![Cyberium Whitepaper](https://img.shields.io/badge/TUI_Spec_%26_POC-Cyberium_CLI_(8_Pages)-10b981?style=flat-square&logo=python&logoColor=white)](https://github.com/ArtistS24/cyberium-cli/blob/main/docs/Cyberium_CLI_POC_Denis_Albin.pdf)
 [![Glaz Pentest Dossier](https://img.shields.io/badge/Pentest_Dossier-Glaz_Audit_(12_Pages)-f59e0b?style=flat-square&logo=kalilinux&logoColor=white)](https://github.com/ArtistS24/glaz-audit/blob/main/docs/Glaz_Portfolio.pdf)
-[![Cyberium CTF Arenas](https://img.shields.io/badge/CTF_Arenas-7_Walkthrough_Dossiers-e879f9?style=flat-square&logo=target&logoColor=white)](https://github.com/ArtistS24/security-research-labs)
+[![OWASP CTF Arenas](https://img.shields.io/badge/CTF_Walkthroughs-OWASP_CTF_Arenas_(75_Pages)-e879f9?style=flat-square&logo=target&logoColor=white)](https://github.com/ArtistS24/owasp-ctf-arenas)
 
 </div>
 
@@ -72,10 +72,10 @@ drwxr-xr-x 2 artist 4.0K Oct 15 >_ glaz-audit/ ↗  ● PENTEST SUITE
   ├─ Automated vulnerability research framework & scanner orchestration
   └─ Documentation: [  12-Page Official Pentest Dossier & CVE Methodology ]
 
-drwxr-xr-x 2 artist 4.0K Oct 19 >_ security-research-labs/ ↗  ● THREAT INTEL
-  ├─ stack: threat-intel | ctf | owasp
-  ├─ arenas: Cyberium CTF tournament arenas, OWASP labs & OSINT threat intel
-  └─ Documentation: [  7 Official Challenge Walkthrough Dossiers (PDF) ]
+drwxr-xr-x 2 artist 4.0K Oct 19 >_ owasp-ctf-arenas/ ↗  ● CTF ARENAS
+  ├─ stack: docker | php | mysql | owasp
+  ├─ arenas: 3 Dockerized OWASP Top 10 web apps (CorpLink, CorpNet, BrightBoard)
+  └─ Documentation: [  7 Step-by-Step CTF Walkthrough PDFs (75 Pages) ]
 
 artist@host:~/projects$ cat ~/edge
 "the paint meets the kernel — where shadow gives depth to the blade"
