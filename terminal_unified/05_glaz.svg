@@ -85,7 +85,7 @@
       <text x="0" y="0" class="tree-branch">└──</text>
       <circle cx="24" cy="-4" r="3" fill="none" stroke="#fbbf24" stroke-width="1.2" />
       <circle cx="24" cy="-4" r="1" fill="#fbbf24" />
-      <text x="34" y="0" class="tree-label">research : <tspan class="tree-val">Vulnerability research framework &amp; scanner orchestration</tspan></text>
+      <text x="34" y="0" class="tree-label">pipeline : <tspan class="tree-val">Automated Nmap recon, Searchsploit mapping &amp; Hydra audit</tspan></text>
     </g>
   </g>
 </svg>

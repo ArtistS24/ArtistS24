@@ -17,7 +17,7 @@
   <a href="https://github.com/ArtistS24/Engineer-Forensic-tool/blob/main/docs/Engineer_Portfolio.pdf"><img src="https://img.shields.io/badge/Forensics_Dossier-Engineer_(13_Pages)-38bdf8?style=flat-square&amp;logo=linux&amp;logoColor=white" alt="Engineer Forensics PoC" /></a>
   <a href="https://github.com/ArtistS24/cyberium-cli/blob/main/docs/Cyberium_CLI_POC_Denis_Albin.pdf"><img src="https://img.shields.io/badge/TUI_Spec_%26_POC-Cyberium_CLI_(8_Pages)-10b981?style=flat-square&amp;logo=python&amp;logoColor=white" alt="Cyberium CLI PoC" /></a>
   <a href="https://github.com/ArtistS24/glaz-audit/blob/main/docs/Glaz_Portfolio.pdf"><img src="https://img.shields.io/badge/Pentest_Dossier-Glaz_Audit_(12_Pages)-f59e0b?style=flat-square&amp;logo=kalilinux&amp;logoColor=white" alt="Glaz Pentest PoC" /></a>
-  <a href="https://github.com/ArtistS24/owasp-ctf-arenas"><img src="https://img.shields.io/badge/CTF_Walkthroughs-OWASP_CTF_Arenas_(75_Pages)-e879f9?style=flat-square&amp;logo=target&amp;logoColor=white" alt="OWASP CTF Arenas" /></a>
+  <a href="https://github.com/ArtistS24/owasp-ctf-arenas#walkthroughs"><img src="https://img.shields.io/badge/CTF_Walkthroughs-OWASP_CTF_Arenas_(75_Pages)-e879f9?style=flat-square&amp;logo=target&amp;logoColor=white" alt="OWASP CTF Arenas" /></a>
 </p>
 
 </div>
@@ -38,15 +38,15 @@ Cybersecurity graduate (694h · City & Guilds) · Currently in RTX (Red Team Exp
 Building Linux SIEM/EDR, forensics & lab automation in Bash & CLI.
 
 artist@host:~$ cat ~/.domains
-[+] Defensive Security : SIEM event correlation, EDR telemetry, forensics
-[+] Offensive Security : Pentesting, vulnerability research, CVE mapping
+[+] Defensive Security : SIEM log triage (Splunk / ELK), EDR telemetry, forensics
+[+] Offensive Security : Network recon, Exploit-DB mapping, OWASP web labs
 [+] Infrastructure     : Linux kernel primitives, KVM virtualization
-[+] Local Intelligence : Self-hosted LLMs (Qwen / Ollama), threat models
+[+] Alert & Log Triage : Windows Events, Sysmon, Linux auditd, Suricata / PCAP
 
 artist@host:~$ cat ~/.stack
 languages   : Bash, POSIX Shell, Python 3 (Lab Tooling)
 systems     : Fedora (Daily Driver), Kali Linux (Container), KVM
-toolchains  : Nmap, Wireshark, Volatility, Metasploit, Docker, Socat
+toolchains  : Splunk, ELK, Wireshark, Volatility 3, Nmap, Docker
 
 artist@host:~$ cd ~/projects
 
@@ -58,7 +58,7 @@ drwxr-xr-x 2 artist 4.0K Oct 15 >_ blackbox-siem-edr/ ↗  ● SOC PLATFORM
   ├─ endpoint : inotifywait, /proc & ss sensor · MITRE rules · SIGKILL & iptables
   └─ Documentation: [  18-Page SIEM & EDR Architecture & PoC (PDF) ]
 
-drwxr-xr-x 2 artist 4.0K Oct 18 >_ Engineer-Forensic-tool/ ↗  ● LIVE REPO
+drwxr-xr-x 2 artist 4.0K Oct 18 >_ Engineer-Forensic-tool/ ↗  ● FORENSICS CLI
   ├─ stack: bash | volatility 3 | binwalk
   ├─ Automated file carving, artifact extraction & Volatility 3 memory triage
   ├─ Workflow: 13-option interactive CLI dispatcher · *_Automation.zip bundle
@@ -71,11 +71,11 @@ drwxr-xr-x 2 artist 4.0K Oct 15 >_ cyberium-cli/ ↗  ● LAB HELPER TUI
 
 drwxr-xr-x 2 artist 4.0K Oct 15 >_ glaz-audit/ ↗  ● PENTEST SUITE
   ├─ stack: bash | nmap | cve | recon
-  ├─ Automated vulnerability research framework & scanner orchestration
+  ├─ Automated Nmap recon, Searchsploit mapping & Hydra audit
   └─ Documentation: [  12-Page Pentest Walkthrough & CVE Mapping (PDF) ]
 
 drwxr-xr-x 2 artist 4.0K Oct 19 >_ owasp-ctf-arenas/ ↗  ● CTF ARENAS
-  ├─ stack: docker | php | mysql | owasp
+  ├─ stack: docker | php | mysql | sqlite | owasp
   ├─ arenas: 3 Dockerized OWASP Top 10 web apps (CorpLink, CorpNet, BrightBoard)
   └─ Documentation: [  7 Step-by-Step CTF Walkthrough PDFs (75 Pages) ]
 
